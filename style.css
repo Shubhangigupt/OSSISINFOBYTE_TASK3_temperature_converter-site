@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(2, 2, 86);
+}
+
+h1{
+
+    text-align: center;
+    font-family: sans-serif;
+    color: #ca4325;
+    font-style: oblique;
+    font-size: -webkit-xxx-large;
+}
+
+
+
+#calcTemp {
+    padding: 29px 67px;
+    min-height: 290px;
+    background-color: #00d3ffb0;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+label {
+    font-size: 33px;
+    line-height: 78px;
+    font-style: italic;
+    color: red;
+    font-weight: bolder;
+}
+
+#temp {
+    width: 149px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#temp_diff {
+    width: 165px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#submit {
+    width: 100px;
+    border-radius: 5px;
+    margin: 30px 0 20px 0;
+    font-size: 18px;
+    background-color: #c4d33b;
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+#clear{
+    margin-top: 30px 0 20px 0;
+    background-color:rgb(251 81 19);
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px ;
+    position: relative;
+    text-align: center;
+}
+  
+#submit:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+#clear:hover{
+    background-color: antiquewhite;
+    }
+
+
+#result{
+    font-size: 27px;
+}
